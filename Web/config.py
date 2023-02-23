@@ -1,0 +1,1 @@
+Y_labels = {1:"bed",2:"chair",3:"sofa"}
