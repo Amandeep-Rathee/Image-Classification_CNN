@@ -3,7 +3,7 @@
 This is a CNN based deep learning model for image classification, with an API built using flask-ngrok framework. The model uses a dataset with 3 classes namely Sofa, Bed and Chair.
 
 ## Pre-Requisites
-The dataset contained raw images in JPG format. To convert them into CSV format use the * * Image_to_csv.py * * script. Before that make sure all images are in same folder and the names of all images containing _ _Sofa _ _ should start with **S**, _ _Chair_ _ images with **C** and, and _ _Bed_ _ images with **B**.
+The dataset contained raw images in JPG format. To convert them into CSV format use the * *Image_to_csv.py* * script. Before that make sure all images are in same folder and the names of all images containing _ _Sofa _ _ should start with **S**, _ _Chair_ _ images with **C** and, and _ _Bed_ _ images with **B**.
 
 ## Installation
 
