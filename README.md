@@ -4,7 +4,7 @@ This is a CNN based deep learning model for image classification, with an API bu
 
 ## Pre-Requisites
 To create your own Image Classification model follow the steps.
-- The dataset containing raw images in JPG format. To convert them into CSV format use the  _Image_to_csv.py_  script. Before that make sure all images are in same folder and the names of all images containing  _Sofa _  should start with **S**, _Chair_ images with **C** and, and _Bed_ images with **B**.
+- The dataset containing raw images in JPG format. To convert them into CSV format use the  _Image_to_csv.py_  script. Before that make sure all images are in same folder and the names of all images containing  _Sofa_  should start with **S**, _Chair_ images with **C** and, and _Bed_ images with **B**.
 - Once CSV is made use the _ _fulhaus.py_ _ file to create model.
 - A Small frontend UI is available in _ _frontend_ _ folder and contains _ _frontend.html_ _ and _ _main.js_ _ file.
 
