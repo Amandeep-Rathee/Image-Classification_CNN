@@ -3,7 +3,10 @@
 This is a CNN based deep learning model for image classification, with an API built using flask-ngrok framework. The model uses a dataset with 3 classes namely Sofa, Bed and Chair.
 
 ## Pre-Requisites
-The dataset contained raw images in JPG format. To convert them into CSV format use the * *Image_to_csv.py* * script. Before that make sure all images are in same folder and the names of all images containing _ _Sofa _ _ should start with **S**, _ _Chair_ _ images with **C** and, and _ _Bed_ _ images with **B**.
+To create your own Image Classification model follow the steps.
+- The dataset containing raw images in JPG format. To convert them into CSV format use the * *Image_to_csv.py* * script. Before that make sure all images are in same folder and the names of all images containing _ _Sofa _ _ should start with **S**, _ _Chair_ _ images with **C** and, and _ _Bed_ _ images with **B**.
+- Once CSV is made use the _ _fulhaus.py_ _ file to create model.
+- A Small frontend UI is available in _ _frontend_ _ folder and contains _ _frontend.html_ _ and _ _main.js_ _ file.
 
 ## Installation
 
