@@ -52,7 +52,7 @@ This project uses a CI/CD pipeline with Github Actions to automatically build an
 
 - Install dependencies
 - Build the Docker image
-- Run unit tests
+- Run tests
 - Push the Docker image to Docker Hub
 
 ## Model Architecture
