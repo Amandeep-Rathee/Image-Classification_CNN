@@ -37,8 +37,9 @@ print(response.json())
 docker build -t image-classification-api .
 ```
 - Run the image in a container:
+```
 docker run -p 5000:5000 image-classification-api
-
+```
 ## CI\CD Pipeline
 
 This project uses a CI/CD pipeline with Github Actions to automatically build and test the code every time a new commit is pushed to the repository. The pipeline runs the following steps:
@@ -49,7 +50,7 @@ This project uses a CI/CD pipeline with Github Actions to automatically build an
 - Push the Docker image to Docker Hub
 
 ## Model Architecture
-
+```
 Model: "sequential"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
@@ -75,3 +76,4 @@ Total params: 167,562
 Trainable params: 167,562
 Non-trainable params: 0
 _________________________________________________________________
+```
