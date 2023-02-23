@@ -55,6 +55,14 @@ This project uses a CI/CD pipeline with Github Actions to automatically build an
 - Run tests
 - Push the Docker image to Docker Hub
 
+To use the pipeline for your own repository, simply add the following files to your repository:
+
+- .github/workflows/build-and-deploy.yml (with your Docker Hub credentials)
+- Dockerfile
+- requirements.txt
+- app.py
+- test.py (if applicable)
+
 ## Model Architecture
 ```
 Model: "sequential"
